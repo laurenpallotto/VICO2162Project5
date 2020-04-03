@@ -1,0 +1,59 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+    <title>Project 5</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+    <p>Please submit you first and last name, followed by your email address. Then please complete this short quarantine survey.
+    </p>
+    <form>
+        <label for="fname"> First Name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <lable for="lname"> Last Name:</lable><br>
+        <input type="text" id="lname" name="lname">
+    </form>
+
+    <form>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="form-group">
+            <label for="Stress Rate">Rate your current quarantine stress on a scale of 1-5.</label>
+            <select class="form-control" id="stress-rate">
+                <option>1-I still have toilet paper</option>
+                <option>2-Thriving Introvert</option>
+                <option>3-Indifferent</option>
+                <option>4-Struggling Extrovert</option>
+                <option>5-I have run out of toilet paper</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="What do you miss?">What do you miss the most in quarantine?</label>
+            <select multiple class="form-control" id="what-do-you-miss">
+                <option>Being in Athens (Fest Season)</option>
+                <option>Having space from my parents </option>
+                <option>In-person Classes</option>
+                <option>Seeing mt friends</option>
+                <option>Having access to basic necessities</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="shortAnswer">What distracts you from the world ending?</label>
+            <textarea class="form-control" id="short-answer" rows="3"></textarea>
+        </div>
+    </form>
+
+    <form id="button"><input type="submit" value="Submit">
+    </form>
+
+</body>
+
+
+
+
+</html>
